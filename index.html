@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equipe="X-UA-Compatible" content="ie-edge" />
+  <!-- Compiled and minified CSS -->
+  <link rel="shortcut icon" href="lupa.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Search Filmes</title>
+</head>
+
+<body>
+  <header class="container">
+    <h1 class="center">Pesquisa de Filmes</h1>
+
+    <!-- Inicio materialize search animation -->
+    <div class="center" id="loading">
+      <div class="preloader-wrapper active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <span id="loading-message">
+        <h5>Aguarde...</h>
+      </span>
+    </div> <!--Fim materialize search animation -->
+  </header>
+
+  <div id="popup">
+    <a id="btn" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">X</i></a>
+  </div>
+
+  <main class="container">
+    <div class="field-search">
+      <div class="input-field col s6">
+        <input id="inputName" type="text" class="validate">
+        <label for="inputName">Busca</label>
+      </div>
+    </div>
+
+    <div class="movies-container">
+      <div class="container border-conteiner">
+        <h3 id="summaryFilmes">FILMES:
+
+          <!--Inicio materialize search animation -->
+          <div class="loading-container">
+            <div class="center" id="loading2">
+              <div class="preloader-wrapper active">
+                <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--Fim materialize search animation -->
+        </h3>
+        <div id="tabFilmes"></div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="message">By William Mota - 2020</p>
+
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
