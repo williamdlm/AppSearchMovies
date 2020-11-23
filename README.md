@@ -18,7 +18,7 @@ The user can filter the search for movies by name and they appear in alphabetica
 ![App Screenshot](https://res.cloudinary.com/dhmkfekt2/image/upload/v1605974939/searchmovies_an85tw.gif)
 
 <p align="center">
-  <a href="https://www.heroku.com/" target="_blank">
+  <a href="https://app-searchmovies.herokuapp.com/" target="_blank">
     <img alt="Demo on Heroku" src="https://res.cloudinary.com/dhmkfekt2/image/upload/v1605976288/demo_on_heroku_btn_mqam0k.svg">
   </a>
 </p>
